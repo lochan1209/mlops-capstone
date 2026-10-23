@@ -1,0 +1,17 @@
+# Core Scientific & Data Stack (3.13 pre-built wheels)
+numpy>=2.1.0
+pandas>=2.2.2
+scikit-learn>=1.5.0
+joblib>=1.4.0
+
+# Tracking & Registry
+mlflow>=2.17.0
+
+# API & Web Server
+fastapi>=0.115.0
+pydantic>=2.9.0
+httpx>=0.27.0
+uvicorn[standard]>=0.30.0
+
+# Drift Monitoring
+evidently>=0.4.38
